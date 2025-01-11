@@ -1,0 +1,796 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section 1 */
+
+.logo {
+  display: flex;
+  width: 150px;
+  height: 30px;
+  background-image: url(img/home_page/logo_no_background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-APR-Promo-Hero-Desktop-v3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+}
+
+.navbar ul {
+  list-style: none;
+  list-style-type: none;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.btn button {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 2 */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/home_page/Homepage-Model-Y-Desktop-US-v2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.section2_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+.section2_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+  font-weight: 100;
+}
+
+.section2_text h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  font-weight: 100;
+}
+
+.section2_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section2_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section2_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 3 */
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(img/home_page/Homepage-Model-3-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section3_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+.section3_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+  font-weight: 100;
+}
+
+.section3_text h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  font-weight: 100;
+}
+
+.section3_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section3_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section3_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 4 */
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-Model-X-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section4_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+.section4_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+
+  font-weight: 100;
+}
+
+.section4_text h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  font-weight: 100;
+}
+
+.section4_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section4_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section4_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 5 */
+
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-Model-S-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section5_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+.section5_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.section5_text h3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
+.section5 .span {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+}
+
+.section5_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section5_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section5_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 6 */
+
+.section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-Cybertruck-Desktop-v3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section6_text {
+  padding-top: 5rem;
+}
+
+.section6_logo {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  color: white;
+  background-image: url(img/home_page/cyberpunk_white_text_updated.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section6_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.section6_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section6_btn .btn1 {
+  background-color: #1e1513;
+  color: #a19797;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section6_btn .btn2 {
+  background-color: #1e1513;
+  color: #a19797;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 7 */
+
+.section7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-SolarPanels-01-Desktop.avif);
+  background-position: center;
+  background-size: cover;
+}
+
+.section7_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.section7_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+  font-weight: 100;
+}
+
+.section7_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section7_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section7_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 8 */
+
+.section8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-SolarRoof-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section8_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.section8_text h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 10px;
+  font-weight: 100;
+  padding-top: 5px;
+}
+
+.section8_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section8_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section8_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 9 */
+
+.section9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-Powerwall-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section9_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.section9_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section9_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section9_btn .btn2 {
+  background-color: white;
+  color: black;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 10 */
+
+.section10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/home_page/Homepage-Accessories-Desktop-US.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.section10_text h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.section10_btn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.section10_btn .btn1 {
+  background-color: #3e6ae1;
+  color: white;
+  padding: 0.7rem 5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* section 11 */
+
+.section11 {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.section11_text {
+    padding-top: 2rem;
+  width: 50%;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  align-items: center;
+  color: #5C5E62;
+  font-size: 1rem;
+}
+
+.section11_text p {
+    padding: 2rem;
+    font-weight: 100;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 1rem;
+  /* padding-bottom: 10rem; */
+}
+
+.Footer ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.Footer ul li a {
+  text-decoration: none;
+  color: #5C5E62;
+}
+
+
+
+.stickyfooter{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  bottom: 0;
+  /* z-index: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.stickyfooter i{
+  color: #3E6AE1;
+  font-size: 2rem;
+}
+
+.video_tesla{
+  min-width: 100%;
+  min-height: 100vh;
+  position: absolute;
+}
+
+.section12{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section12_text{
+  width: 300px;
+  height: 120px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 80%;
+  left: 4%;
+}
+
+.video_heading{
+  color: #fff;
+}
+.video_btn{
+  width: 260px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #fff;
+  z-index: 1;
+}
