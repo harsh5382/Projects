@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Choice Styles */
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.choice {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.choice img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.choice:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Scoreboard Styles */
+.score-board {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.score {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.score p {
+  margin: 5px 0;
+  font-size: 1.5rem;
+}
+
+#user-score {
+  color: #32cd32;
+  font-weight: bold;
+}
+
+#comp-score {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+/* Message Container Styles */
+.msg-container {
+  margin-top: 20px;
+}
+
+#msg {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#result-gif {
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .choices {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .choice {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .score p {
+    font-size: 1.2rem;
+  }
+
+  #msg {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .choice {
+    width: 70px;
+    height: 70px;
+  }
+
+  .score {
+    padding: 15px 20px;
+  }
+}
