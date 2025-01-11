@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+    <form id="loginForm">
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+  <p id="errorMessage" style="color: red;"></p>
+  <button type="submit">Login</button>
+</form>
+
+<script>
+  document.getElementById('loginForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const username = document.getElementById('username').value.trim();
+    const password = document.getElementById('password').value.trim();
+    const errorMessage = document.getElementById('errorMessage');
+
+    // Mock credentials
+    const validUsername = "harsh";
+    const validPassword = "1234";
+
+    if (username === validUsername && password === validPassword) {
+      errorMessage.textContent = "";
+      alert("Login successful!");
+      window.location.href = "index.html"; // Redirect to another page
+    } else {
+      errorMessage.textContent = "Invalid username or password.";
+    }
+  });
+</script>
+
+</body>
+</html>
